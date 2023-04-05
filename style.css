@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.quiz-container {
+  background-color: #fff;
+  background-image: url('https://digitalhub.fifa.com/transform/277531a2-668d-49f5-baee-8fd42c4be87e/FIFAPLS_FM_N_Boca3D_Hero_01');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 500px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+h2 {
+  
+  text-align: center;
+  margin: 1.5rem 0 1.5rem 0;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 1rem 1rem 0 1rem;
+}
+
+ul li {
+  font-size: 1rem;
+  margin: 1rem 0;
+  color: #fff;
+  
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+  background-color: #0632b7;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+
+button:hover {
+  background-color: #d3d392;
+}
+
+button:focus {
+  outline: none;
+  background-color: #0632b7;
+}
